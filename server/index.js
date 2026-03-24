@@ -23,3 +23,5 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log("CORS is enabled for ALL origins now."); // Look for this message!
 });
+
+module.exports = app;
